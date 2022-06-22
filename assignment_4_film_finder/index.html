@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment 4 Film Finder</title>
+    <script defer src="moviedb.js"></script>
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Film Finder</h1>
+    </header>
+
+    <nav>
+      <div>
+        <input
+          id="new-movies-radio"
+          name="film-filter"
+          type="radio"
+          value="new-movies"
+        />
+        <label for="new-movies">Latest movies, 2014 or newer</label>
+      </div>
+
+      <div>
+        <input
+          id="avenger-radio"
+          name="film-filter"
+          type="radio"
+          value="avenger-movies"
+        />
+        <label for="avenger-movies">Avenger movies</label>
+      </div>
+
+      <div>
+        <input
+          id="x-men-radio"
+          name="film-filter"
+          type="radio"
+          value="x-men-movies"
+        />
+        <label for="x-men-movies">X-Men movies</label>
+      </div>
+
+      <div>
+        <input
+          id="princess-radio"
+          name="film-filter"
+          type="radio"
+          value="princess-movies"
+        />
+        <label for="princess-movies">Princess movies</label>
+      </div>
+
+      <div>
+        <input
+          id="batman-radio"
+          name="film-filter"
+          type="radio"
+          value="batman-movies"
+        />
+        <label for="batman-movies">Batman movies</label>
+      </div>
+    </nav>
+
+    <main>
+      <ul id="poster-container"></ul>
+    </main>
+  </body>
+</html>
